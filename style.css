@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+body{
+    margin: auto;
+    background-color: white;
+    font-family: "Arial";
+    font-size: 12px;
+    overflow-x: hidden; /* Impede rolagem horizontal na página inteira */
+ 
+
+
+}
+::-webkit-scrollbar {
+    width: 7px; /* Largura da barra */
+    background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* Cor da barra */
+    border-radius: 5px;
+
+}
+#pai{
+background-color: white;
+
+    position: fixed;
+
+    z-index: 1;
+ 
+}
+#pai.header{
+    display: flex;
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    background-color: white;
+    margin-top: 5px;
+
+}
+
+
+#pesquisa{
+ 
+
+   height: 20px;
+   background-color: white;
+   border-radius: 5px;
+   border: 1px , solid;
+   padding-right: 1px;
+   margin-left: 10px;
+   text-align: center;
+   display: flex;
+
+
+ 
+}
+
+#pesq{
+   
+    margin-top: 2px;
+    height: 13px;
+    border-color: transparent;
+    border-style: none;
+    outline: none;
+    border-radius: 3px;
+    top: 0;
+    left: 0;
+    bottom: 1px;
+    width: auto;
+    
+
+
+
+}
+
+nav{
+    display: flex; 
+    width: 100%; 
+    background-color: white;
+
+   
+}
+
+ul{
+    
+   display: flex;
+   list-style: none;
+   margin: auto;
+   text-align: center;
+   
+   
+}
+
+li{
+    
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration-line: underline;
+   
+}
+
+.icones{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+   
+}
+
+
+h1{
+    position: absolute;
+    display: flex;
+    font-family: "Dancing Script", cursive;;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -2px;
+    left: 48%;
+  right: 70%;
+}
+
+#config{
+    position: absolute;
+    display: flex;
+    top: 5px;
+    right: 20px; 
+
+}
+
+
+
+#carrinho{
+    margin-right: 13px;
+}
+#imgprincipal{
+ 
+    position: absolute;
+    margin-top: 80px;
+    float: none;
+    width: 100vw;
+    height: 300px;
+    margin-left: 0;
+    margin-right: 0;
+
+ 
+}
+#imgPrinc{
+    width: 100%;
+    height: 100%;
+}
+
+
+#sobre{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    top: 400px;
+    overflow: hidden;
+
+}
+#ul-informes{
+
+    margin: auto;
+ 
+
+}
+
+.informes{
+    margin-top: 0px;
+    width: auto;
+    height: auto;
+    margin-right: 75px;
+    text-align: left;
+    display: flex;
+    font-size: 9px;
+
+
+
+}
+strong{
+    font-size: 12px;
+}
+
+p{  
+    padding-left: 5px;
+}
+.informes :last-child{
+    /* last-child remover a margin do ultimo item*/
+    margin: 0px;
+}
+
+
+
+
+
